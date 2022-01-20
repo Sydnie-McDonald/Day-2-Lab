@@ -34,7 +34,7 @@ selectEl.addEventListener('change', (e) => {
         renderPerson(0);
     } else if (selected === 'two') {
         renderPerson(1);
-    }  else if (selected === 'three') {
+    } else if (selected === 'three') {
         renderPerson(2);
     } else {
         renderPerson(3);
