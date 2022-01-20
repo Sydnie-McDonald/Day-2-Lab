@@ -14,6 +14,19 @@ If you work on more than one feature at a time, you are guaranteed to multiply y
 1. **Think about how to validate each of your features according to a Definition of Done**
 1. **Consider what features _depend_ on what other features. Use this dependency logic to figure out what order to complete tasks.**
 
+Plan:
+- start by creating data in the data.js file
+- fill in data for the data.js file
+- fill in html with select element, added paragraph tags and classes
+- worked in the app.js selecting created classes and adding the functionality to the app
+- testing the console.log making sure the code is working.(query selectors)
+-creating event listener
+- work on rendering the person selected function
+- adding to the event listener 
+- grabbing and storing data in the proper variables and accessing the index.html to display and clear previous data. 
+
+
+
 Additional considerations:
 
 -   Ask: which of your HTML elements need to be hard coded, and which need to be dynamically generated?
