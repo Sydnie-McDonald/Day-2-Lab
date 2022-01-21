@@ -43,4 +43,4 @@ selectEl.addEventListener('change', (e) => {
         renderPerson(3);
         document.body.style.backgroundColor = '#63e686';
     }
-});
+}); 
