@@ -32,12 +32,15 @@ selectEl.addEventListener('change', (e) => {
     hobbiesEl.innerHTML = ' ';
     if (selected === 'one') {
         renderPerson(0);
+        document.body.style.backgroundColor = '#c453f5';
     } else if (selected === 'two') {
         renderPerson(1);
+        document.body.style.backgroundColor = '#fa25cf';
     } else if (selected === 'three') {
         renderPerson(2);
+        document.body.style.backgroundColor = '#28baeb';
     } else {
         renderPerson(3);
+        document.body.style.backgroundColor = '#63e686';
     }
-
 });
